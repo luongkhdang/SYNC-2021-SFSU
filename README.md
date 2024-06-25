@@ -21,6 +21,7 @@ personalized listening rooms.
 
 ![image](https://github.com/luongkhdang/SYNC-2021-SFSU/assets/173588546/5e0d7e57-d107-4c5f-ac79-43403ee9c915)
 
+![image](https://github.com/luongkhdang/SYNC-2021-SFSU/assets/173588546/7013240d-1b57-4dc6-b341-95854abf2e76)
 
 
 
