@@ -1,0 +1,73 @@
+.main-landing {
+    background-image: url(../assets/bg30brightcrop2.jpg);
+    background-position: top;
+    background-size: 981px;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    font-size: 4em;
+    width: auto;
+    color: white;
+    white-space: nowrap;
+}
+
+.subtext1 {
+
+    font-size: 1.8em;
+    color: white;
+    margin-top: 4vw;
+    white-space: nowrap;
+}
+
+.subtext2 {
+    font-size: 1.8em;
+    color: white;
+    white-space: nowrap;
+}
+
+.landingButton {
+    margin-top: 5vw;
+}
+
+.landingButton-text {
+    font-size: 18pt;
+}
+
+.logo {
+    margin-top: 20vw;
+    margin-left: 15px;
+}
+
+.logo-flex {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    margin-left: 15px;
+    justify-content: flex-end;
+}
+
+.fig-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 507px;
+    justify-content: flex-start;
+}
+
+@media only screen and (min-width: 981px) {
+    .main-landing {
+        background-image: url(../assets/bg30brightcrop2.jpg);
+        background-position: top;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+    }
+        
+    .fig-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: calc(52vw - 130px);
+        justify-content: flex-start;
+    }
+}

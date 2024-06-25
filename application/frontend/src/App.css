@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color1: #222831;
+  --color2: #393e46;
+  --color2-brighter: #4a515c;
+  --color3: #00adb5;
+  --color3-darker: #007c82;
+  --color4: #eeeeee;
+}
+
+body {
+  /* background-color: var(--color1) !important; */
+  /* background-image: url(./assets/bgimages/test.png);
+  background-position: center;
+  background-size: 100vw;
+  color: var(--color4) !important; */
+  background-image: linear-gradient(var(--color1), black, var(--color1));
+}
+
+/*.old_body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  font-family: "Franklin Gothic Medium";
+} */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: var(--color4) !important;
+}
+
+.main h1 {
+  color: var(--color4);
+}
+
+.main h2 {
+  color: var(--color4);
+}
+
+.main h4 {
+  color: var(--color3);
+}
+
+.bg-dark-sync {
+  font-family: Arial, sans-serif;
+  background-color: var(--color2) !important;
+}
+
+.sync-type-color {
+  color: var(--color4) !important;
+}
+
+.sync-toggler-color {
+  color: var(--color3) !important;
+}
+
+.sync-toggler-color:hover {
+  color: var(--color4) !important;
+}
+
+.sync-button-color {
+  color: var(--color4) !important;
+  background-color: var(--color3) !important;
+}
+
+.sync-button-color:hover {
+  background-color: var(--color3-darker) !important;
+}
+
+.sync-button-color:active {
+  color: var(--color3) !important;
+  background-color: var(--color4) !important;
+}
+
+.navbar-username-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.result_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+  width: 1040px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.result_card {
+  padding-left: 5px;
+  padding-bottom: 20px;
+}
+
+.result_card img {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 10px;
+}
+
+.search_box {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.search_bar {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search_button {
+  background-color: #aaaaaa;
+  border: none;
+  height: 40px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 15px;
+}
+
+.room_album_image img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.room_play_button img {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 75px;
+}
+
+.progress1 {
+  width: 1px;
+  height: 10px;
+  background: var(--color3);
+  transition: width 0.1s linear;
+}
+
+.container1 {
+  width: 200px;
+  background: var(--color2);
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+/*.grid1 {
+  height: 500px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+  justify-items: center;
+} */
+
+.chatdiv {
+  border-radius: 10px;
+  width: 300px;
+  height: 100%;
+  background-color: var(--color2);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

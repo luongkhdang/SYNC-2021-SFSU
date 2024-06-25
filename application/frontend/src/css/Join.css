@@ -1,0 +1,22 @@
+.join_cards{
+    background-color: var(--color2);
+}
+.join_text{
+    color: white !important;
+}
+.join_dropdown{
+    margin-left: 500px;
+}
+.search_bar{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: center;
+}
+.dropdown_button{
+    background-color: var(--color3);
+}
+.dropdown_button:hover{
+    
+    background-color: var(--color3-darker);
+}

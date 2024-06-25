@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.home-main {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.home-top-text-block {
+  font-size: 22pt;
+  margin-bottom: 30px;
+}
+
+.button-column {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: space-evenly;
+}
+
+.home-button-design {
+  font-weight: 500;
+  font-size: 18pt;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+}
+
+.spacer {
+  width: 90%;
+  height: 3px;
+  background-color: var(--color2);
+  margin-top: 40px;
+}

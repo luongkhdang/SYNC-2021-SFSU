@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.music-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.music-player strong {
+  margin-bottom: 20px;
+}
+
+.spotify-music-player-controls {
+  width: 300px !important;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: hidden;
+  justify-items: flex-end;
+}
+
+.music-player-next-song {
+  margin-top: 30px;
+  width: 300px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+}
+
+.next-image {
+  width: 90px;
+}
+
+.next-song-text {
+  margin: 10px;
+  white-space: nowrap;
+}

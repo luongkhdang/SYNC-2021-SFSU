@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+  }
+
+.user-picture-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

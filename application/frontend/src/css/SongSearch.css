@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+.songsearch-main {
+  display: flex;
+  flex-direction: column;
+
+  height: calc(100% - 65px);
+  margin-left: 15px;
+}
+
+.searchsong-title-text {
+  font-size: 14pt !important;
+}
+
+.searchsong-results {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.searchsong-text {
+  font-weight: bold;
+  font-size: 12pt;
+  color: var(--color3);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.songsearch-result-card {
+  display: flex;
+  flex-direction: row;
+  width: 260px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.songsearch-result-card-image-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--color1);
+  justify-items: flex-start;
+  margin-left: 0px !important;
+  padding-right: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 200px;
+}
+
+.songsearch-result-card-image-title div {
+  padding-right: 10px;
+}
+
+.songsearch-result-card-image-title img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.songsearch-add-icon-button {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color1);
+  height: 50px;
+  align-items: center;
+  width: 50px;
+  justify-content: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  margin-left: 10px;
+}
+
+.searchsong-add-icon {
+  color: var(--color3);
+  font-size: 22px;
+}
+
+.searchsong-add-icon:hover {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.songsearch-result-card div {
+  margin-left: 10px;
+}
