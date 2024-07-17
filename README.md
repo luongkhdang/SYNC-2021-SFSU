@@ -52,6 +52,7 @@ Password: letzSYNC ///Just a free account - no longer a functional login account
 
 
 | Student Name | Student Email | GitHub Username | Role |
+
 | Luong Dang    |  ldang2@mail.sfsu.edu           |     luongdang0701         | Back-End developer |
 
 
