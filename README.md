@@ -52,13 +52,7 @@ Password: letzSYNC ///Just a free account - no longer a functional login account
 
 
 | Student Name | Student Email | GitHub Username | Role |
-|    :---:     |     :---:     |     :---:       |   :---:   |
-| Rebecca Zumaeta      |  rzumaeta@mail.sfsu.edu         |     rezum            | Team Lead|
-| Ashwini Managuli      |  amanaguli@mail.sfsu.edu        |     Ashwinigm            | Back-End Lead|
-| Bryan Fetner      |  bfetner@mail.sfsu.edu          |     bfetner            | Front-End Lead |
 | Luong Dang    |  ldang2@mail.sfsu.edu           |     luongdang0701         | Back-End developer |
-| Vishakha Tyagi      |  vtyagi@mail.sfsu.edu           |     Vishakha2002            | Back-End developer |
-| Malcolm Angelo De Villar      |  mdevillar@mail.sfsu.edu        |     mdevillar0            | Front-End developer |
-| Hirva Patel | hpatel11@mail.sfsu.edu | hirva98 | Front-End developer |
+
 
 ## NO code needs to be stored in the root of your repository. You may rename the application folder if you like to your team's application name. But all source code related to your team's application should be stored inside the application folder.
